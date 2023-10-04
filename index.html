@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto - Clima</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Clima Tempo</h1>
+
+        <form onsubmit="handleSearch(event)" class="form">
+            <input 
+            type="text"
+            placeholder="Digite o nome da Cidade..."
+            id="input"
+            class="input"
+            />
+            <button class="submit" type="submit">
+                Pesquisar
+            </button>
+        </form>
+
+        <main class="content hide">
+            <span id="date" class="date">20/12/2020</span>
+            <h3 id="city" class="city">Goiânia, GO</h3>
+            <h1 id="temp" class="temp">20°</h1>
+            <span id="description" class="description">Chuvas Isoladas</span>
+        </main>
+
+    </div>
+
+</body>
+
+</html>
